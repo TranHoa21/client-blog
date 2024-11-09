@@ -1,0 +1,343 @@
+.project-body{
+    &.day-theme{
+        width:90%;
+        background-color: rgba(255, 255, 255, 0.603);
+        padding: 20px 0 0 0;
+        margin: 0 auto;
+        .project-title{
+            width: 100%;
+            margin: 20px 10px;
+            .pro-image{
+                width: 100%;
+                height:auto;
+                object-fit: cover;
+                padding: 10px 0;
+                border-bottom: 1px solid rgb(114, 114, 114) !important;
+                border-top: 1px solid rgb(114, 114, 114) !important;
+    
+            }
+        }
+        .list-project{
+            margin: 10px ;
+            padding: 30px 0 20px 0;
+        }
+        .list-container{ 
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            .list-box1.row{
+                margin: 0;
+                padding: 0;
+                .col-sm-6.list-box-item{
+                    padding:15px;
+                    .recent-box-item-image{
+                        margin: 30px 0 30px 0;
+                        width: 100%;
+                        height:300px;
+                        object-fit: cover;
+                    }
+                    .item-name{
+                        padding:0;
+                        margin: 0;
+                        color: rgb(151, 53, 231);
+                        font-size: 80%;
+                        font-weight: 500;
+                    }
+                    .item-box{
+                        display: flex;
+                        justify-content: space-between; // Đẩy các phần tử ra hai đầu
+                        align-items: center;
+                        .item-blog-title{
+                            color: rgb(32, 32, 32);
+                            margin:0;
+                            padding:0;
+                            padding: 13px 0;
+                            font-weight: 645;
+                        }
+                        .item-box-img{
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                    
+                    .all-tag{
+                        display:flex;
+                        .the-tag1{
+                            display:flex;
+                            width:fit-content;
+                            padding: 5px 10px ;
+                            color:rgb(181, 53, 231);
+                            background-color:rgba(232, 225, 235, 0.836);
+                            border-radius: 20px;
+                            font-size: 85%;
+                            font-weight: 500;
+                            margin-right: 20px;
+                        }
+                        .the-tag2{
+                            display:flex;
+                            width:fit-content;
+                            padding: 5px 10px ;
+                            color:rgb(0, 60, 255);
+                            background-color:rgba(212, 220, 248, 0.836);
+                            border-radius: 20px;
+                            font-size: 85%;
+                            font-weight: 500;
+                            margin-right: 20px;
+                        }
+                        .the-tag3{
+                            display:flex;
+                            width:fit-content;
+                            padding: 5px 10px ;
+                            color:rgb(255, 0, 106);
+                            background-color:rgba(245, 207, 223, 0.836);
+                            border-radius: 20px;
+                            font-size: 85%;
+                            font-weight: 500;
+                            
+                        }
+                    }
+                }
+                .col-sm-12.list-box-item{
+                    padding:15px;
+                    .recent-box-item-image{
+                        margin: 30px 0 30px 0;
+                        width: 100%;
+                        height:550px;
+                        object-fit: cover;
+                    }
+                    .item-name{
+                        padding:0;
+                        margin: 0;
+                        color: rgb(151, 53, 231);
+                        font-size: 80%;
+                        font-weight: 500;
+                    }
+                    .item-box{
+                        display: flex;
+                        justify-content: space-between; // Đẩy các phần tử ra hai đầu
+                        align-items: center;
+                        .item-blog-title{
+                            color: rgb(32, 32, 32);
+                            margin:0;
+                            padding:0;
+                            padding: 13px 0;
+                            font-weight: 645;
+                        }
+                        .item-box-img{
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                    
+                    .all-tag{
+                        display:flex;
+                        .the-tag1{
+                            display:flex;
+                            width:fit-content;
+                            padding: 5px 10px ;
+                            color:rgb(181, 53, 231);
+                            background-color:rgba(232, 225, 235, 0.836);
+                            border-radius: 20px;
+                            font-size: 85%;
+                            font-weight: 500;
+                            margin-right: 20px;
+                        }
+                        .the-tag2{
+                            display:flex;
+                            width:fit-content;
+                            padding: 5px 10px ;
+                            color:rgb(0, 60, 255);
+                            background-color:rgba(212, 220, 248, 0.836);
+                            border-radius: 20px;
+                            font-size: 85%;
+                            font-weight: 500;
+                            margin-right: 20px;
+                        }
+                        .the-tag3{
+                            display:flex;
+                            width:fit-content;
+                            padding: 5px 10px ;
+                            color:rgb(255, 0, 106);
+                            background-color:rgba(245, 207, 223, 0.836);
+                            border-radius: 20px;
+                            font-size: 85%;
+                            font-weight: 500;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.night-theme{
+        width: 90% !important;;
+        background-color: rgba(0, 0, 0, 0.603);
+        padding: 20px 0 0 0;
+        margin: 0 auto;
+        color: white;
+        .project-title{
+            width: 100%;
+            margin: 20px 10px;
+            .pro-image{
+                width: 100%;
+                height:auto;
+                object-fit: cover;
+                padding: 10px 0;
+                border-bottom: 1px solid rgb(114, 114, 114) !important;
+                border-top: 1px solid rgb(114, 114, 114) !important;
+    
+            }
+        }
+        .list-project{
+            margin: 10px ;
+            padding: 30px 0 20px 0;
+        }
+        .list-container{ 
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            .list-box1.row{
+                margin: 0;
+                padding: 0;
+                .col-sm-6.list-box-item{
+                    padding:15px;
+                    .recent-box-item-image{
+                        margin: 30px 0 30px 0;
+                        width: 100%;
+                        height:300px;
+                        object-fit: cover;
+                    }
+                    .item-name{
+                        padding:0;
+                        margin: 0;
+                        color: rgb(151, 53, 231);
+                        font-size: 80%;
+                        font-weight: 500;
+                    }
+                    .item-box{
+                        display: flex;
+                        justify-content: space-between; // Đẩy các phần tử ra hai đầu
+                        align-items: center;
+                        .item-blog-title{
+                            color: rgb(214, 214, 214);
+                            margin:0;
+                            padding:0;
+                            padding: 13px 0;
+                            font-weight: 645;
+                        }
+                        .item-box-img{
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                    
+                    .all-tag{
+                        display:flex;
+                        .the-tag1{
+                            display:flex;
+                            width:fit-content;
+                            padding: 5px 10px ;
+                            color:rgb(181, 53, 231);
+                            background-color:rgba(232, 225, 235, 0.836);
+                            border-radius: 20px;
+                            font-size: 85%;
+                            font-weight: 500;
+                            margin-right: 20px;
+                        }
+                        .the-tag2{
+                            display:flex;
+                            width:fit-content;
+                            padding: 5px 10px ;
+                            color:rgb(0, 60, 255);
+                            background-color:rgba(212, 220, 248, 0.836);
+                            border-radius: 20px;
+                            font-size: 85%;
+                            font-weight: 500;
+                            margin-right: 20px;
+                        }
+                        .the-tag3{
+                            display:flex;
+                            width:fit-content;
+                            padding: 5px 10px ;
+                            color:rgb(255, 0, 106);
+                            background-color:rgba(245, 207, 223, 0.836);
+                            border-radius: 20px;
+                            font-size: 85%;
+                            font-weight: 500;
+                            
+                        }
+                    }
+                }
+                .col-sm-12.list-box-item{
+                    padding:15px;
+                    .recent-box-item-image{
+                        margin: 30px 0 30px 0;
+                        width: 100%;
+                        height:550px;
+                        object-fit: cover;
+                    }
+                    .item-name{
+                        padding:0;
+                        margin: 0;
+                        color: rgb(151, 53, 231);
+                        font-size: 80%;
+                        font-weight: 500;
+                    }
+                    .item-box{
+                        display: flex;
+                        justify-content: space-between; // Đẩy các phần tử ra hai đầu
+                        align-items: center;
+                        .item-blog-title{
+                            color: rgb(206, 206, 206);
+                            margin:0;
+                            padding:0;
+                            padding: 13px 0;
+                            font-weight: 645;
+                        }
+                        .item-box-img{
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                    
+                    .all-tag{
+                        display:flex;
+                        .the-tag1{
+                            display:flex;
+                            width:fit-content;
+                            padding: 5px 10px ;
+                            color:rgb(181, 53, 231);
+                            background-color:rgba(232, 225, 235, 0.836);
+                            border-radius: 20px;
+                            font-size: 85%;
+                            font-weight: 500;
+                            margin-right: 20px;
+                        }
+                        .the-tag2{
+                            display:flex;
+                            width:fit-content;
+                            padding: 5px 10px ;
+                            color:rgb(0, 60, 255);
+                            background-color:rgba(212, 220, 248, 0.836);
+                            border-radius: 20px;
+                            font-size: 85%;
+                            font-weight: 500;
+                            margin-right: 20px;
+                        }
+                        .the-tag3{
+                            display:flex;
+                            width:fit-content;
+                            padding: 5px 10px ;
+                            color:rgb(255, 0, 106);
+                            background-color:rgba(245, 207, 223, 0.836);
+                            border-radius: 20px;
+                            font-size: 85%;
+                            font-weight: 500;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,6 +1,13 @@
 .App {
-  text-align: center;
+  width: 100% !important;
 }
+
+  .night-theme{
+    background-color: black;
+    color: white;
+    width: 100% !important;
+  }
+
 
 .App-logo {
   height: 40vmin;
